@@ -11,6 +11,12 @@ _This vim configuration for development Javascript with vim editor_
     $ ./install.sh
     ```
 
+
+3. Add and Build Bundle Vim Packages Configuration:
+
+     Launch `vim`, run `:BundleInstall`
+     (or `vim +BundleInstall +qall` for CLI lovers)
+
 ## You Must Install This Vim Plugins
 
 * [Vim Pathogen](https://github.com/tpope/vim-pathogen/) if you're a really vim users.
