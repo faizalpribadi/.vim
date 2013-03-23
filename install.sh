@@ -2,7 +2,7 @@
 
 UNAME="which uname"
 HOME_DIR="${HOME}"
-VIM_DIR="${HOME}/.vim"
+VIM_HOME="${HOME}/.vim"
 
 cd "${HOME_DIR}"
 
@@ -10,7 +10,7 @@ sudo apt-get install vim vim-common vim-gui-common vim-gnome
 
 git clone https://github.com/FaizalPribadi/.vim
 
-cd "${VIM_DIR}"
+cd "${VIM_HOME}"
 
 for file in bin/*; do
   cp "${file}" "${VIM_HOME}"
