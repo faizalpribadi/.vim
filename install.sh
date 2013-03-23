@@ -1,6 +1,8 @@
 #!/bin/sh
 
 UNAME="which uname"
+VERSION="0.1.0-dev"
+AUTHOR="Faizal Pribadi"
 HOME_DIR="${HOME}"
 VIM_HOME="${HOME}/.vim"
 
