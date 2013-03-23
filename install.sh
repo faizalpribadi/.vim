@@ -10,8 +10,10 @@ sudo apt-get install vim vim-common vim-gui-common vim-gnome
 
 git clone https://github.com/FaizalPribadi/.vim
 
+cd "${VIM_DIR}"
+
 for file in bin/*; do
-  cp "${file}" "${HOME}"
+  cp "${file}" "${VIM_HOME}"
 done
 
 echo "configuration vim installed to ${HOME_DIR}"
