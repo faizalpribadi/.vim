@@ -1,0 +1,3 @@
+[submodule "lib/modules/custom-vim"]
+	path = lib/modules/custom-vim
+	url = https://github.com/GestureMedia/custom-vim.git
