@@ -11,6 +11,14 @@ _This vim configuration for development Javascript with vim editor_
     $ ./install.sh
     ```
 
+## Manually Setup
+  
+   ```
+   $ git clone https://github.com/FaizalPribadi/.vim.git
+   $ git submodule update --init
+   $ cd .vim
+   $ ./install.sh
+   ```
 
 3. Add and Build Bundle Vim Packages Configuration:
 
@@ -41,3 +49,6 @@ _This vim configuration for development Javascript with vim editor_
 
     ![NERDTree+Node+Vundle](http://25.media.tumblr.com/4b5233a561e6fbc605d7ca94c212860b/tumblr_mk4ix2KLNK1s9pw81o1_1280.png)
 
+4. Python Autocompletion
+
+    ![Python+Autocompletion](https://lh5.googleusercontent.com/-wn2f0Aqt1mk/UZEHa1TABJI/AAAAAAAAAOU/21mYVPxc7Gs/w911-h512-no/pyton.png)
